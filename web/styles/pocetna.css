@@ -1,0 +1,280 @@
+.topnav li{
+  list-style-type: none;
+  margin: 2vw 0;
+  
+  font-size: 3vh;
+}
+
+.topnav a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Rosarivo';
+
+  padding: 2vw;
+}
+
+.topnav{
+  width: 100vw;
+  background-color: #D6EFFF;
+}
+
+.topnav ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+  
+  
+  display: flex;  
+}
+
+nav {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 99999;
+}
+
+body{
+  padding-top: 55px; 
+  margin: 0;
+}
+
+
+
+.topnav button{
+  display: none;
+}
+
+.topnav a:hover{
+  background-color: #C6E9FF;
+}
+
+body {
+  background-image: linear-gradient(#C6E9FF, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% auto;
+  
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: 400px;
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  padding-top: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+form {
+  border: 3px solid white;
+  font-family: 'Rosarivo';
+}
+
+.container {
+  padding: 20px;
+  background-color: white;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #D6EFFF;
+  color: rgb(168, 167, 167);
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+.narukvice {
+  overflow: scroll;
+  float:left; 
+  border-style: dotted;
+  border-radius: 5px;
+}
+
+
+.pKamenje {
+  border-style: dotted;
+  overflow: scroll;
+}
+
+
+
+.popis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  
+}
+
+
+
+.kontakt {
+  background-color: #D6EFFF;
+overflow: hidden;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.kontakt li{
+list-style-type: none;
+}
+
+.kontakt ul{
+display: block;
+margin: 0;
+padding: 0;
+
+
+display: flex; 
+}
+
+.kontakt img{
+  height: 16px;
+  width: 16px;
+  border-color: azure;
+}
+  
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  display:block;
+  margin:auto;
+}
+  
+
+@media only screen and (max-width: 500px) {
+  .topnav ul{
+    flex-direction: column;
+  }
+  
+  .topnav a{
+    display: block;
+  }
+  
+  .topnav li{
+    margin: 0;
+  }
+  
+  .topnav button{
+    display: block;
+    
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #AFE0FF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    align-self: flex-start;
+  }
+}

@@ -1,0 +1,185 @@
+.topnav li{
+    list-style-type: none;
+    margin: 2vw 0;
+    
+    font-size: 3vh;
+  }
+  
+  .topnav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Rosarivo';
+  
+    padding: 2vw;
+  }
+  
+  .topnav{
+    width: 100vw;
+    background-color: #D6EFFF;
+  }
+  
+  .topnav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+    
+    display: flex;  
+  }
+  
+  nav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  body{
+    padding-top: 55px; 
+    margin: 0;
+  }
+  
+  .naslov p {
+      font-family: 'Rosarivo';
+      text-align: center;
+        line-height: 50px;
+  }
+  
+  .naslov span {
+    font-family: 'Rosarivo';
+    font-style: italic;
+    display: inline-block;
+  width: 49%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 3%;
+  }
+
+  .sadrzaj span {
+    font-family: 'Rosarivo';
+    display: inline-block;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    overflow: scroll;
+    column-count: 2;
+    column-span: all;
+    column-rule: 4px double #abbfcc;
+  }
+  
+  .topnav button{
+    display: none;
+  }
+  .kontakt {
+      background-color: #D6EFFF;
+    overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+
+  .kontakt li{
+    list-style-type: none;
+  }
+
+  .kontakt ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+    
+    display: flex; 
+  }
+
+  .kontakt img{
+      height: 16px;
+      width: 16px;
+      border-color: azure;
+  }
+  
+  .topnav a:hover{
+    background-color: #C6E9FF;
+  }
+  
+  body {
+    background-color: #C6E9FF;
+  }
+  
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    display:block;
+    margin:auto;
+  }
+
+  #topnav-right {
+    float:right;
+  }
+  
+  #topnav-left{
+    float:inline-start;
+  }
+  
+  .narukvice {
+      display: flex;
+      overflow-x: auto;
+  }
+  
+  .polaroid p{
+      font-family: 'Rosarivo';
+      font-style: italic;
+  }
+
+
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  .wraper {
+    
+    width: 100%;
+    height: 500px;
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 500px) {
+    .topnav ul{
+      flex-direction: column;
+    }
+    
+    .topnav a{
+      display: block;
+    }
+    
+    .topnav li{
+      margin: 0;
+    }
+    
+    .topnav button{
+      display: block;
+      
+      padding: 2vw;
+      font-size: 3vh;
+      background-color: #AFE0FF;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      
+      align-self: flex-start;
+    }
+  }

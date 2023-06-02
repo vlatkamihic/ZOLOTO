@@ -1,0 +1,194 @@
+.topnav li{
+    list-style-type: none;
+    margin: 2vw 0;
+    
+    font-size: 3vh;
+  }
+  
+  .topnav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Rosarivo';
+  
+    padding: 2vw;
+  }
+  
+  .topnav{
+    width: 100vw;
+    background-color: #D6EFFF;
+  }
+  
+  .topnav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+    
+    display: flex;  
+  }
+  
+  nav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  body{
+    padding-top: 55px; 
+    margin: 0;
+  }
+  
+  
+  
+  .topnav button{
+    display: none;
+  }
+  
+  .topnav a:hover{
+    background-color: #C6E9FF;
+  }
+  
+  body {
+    background-color: #C6E9FF;
+  }
+  
+  #topnav-right {
+    float:right;
+  }
+  
+  #topnav-left{
+    float:inline-start;
+  }
+  
+  .narukvice {
+    overflow: scroll;
+    float:left; 
+    border-style: dotted;
+    border-radius: 5px;
+  }
+
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    display:block;
+    margin:auto;
+  }
+
+
+  .ime {
+    padding-top: 5%;
+    padding-bottom: 0;
+  }
+  .osobe {
+    
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+
+}
+
+.osobe a{
+  text-decoration: none;
+  color: black;
+}
+
+.osobe th{
+  width: fit-content;
+}
+  
+  div.polaroid {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height: 350px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+    vertical-align:middle;
+  }
+  
+  .naslov p {
+    font-family: 'Rosarivo';
+    text-align: center;
+      line-height: 50px;
+}
+
+.naslov span {
+  font-family: 'Rosarivo';
+  font-style: italic;
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 3%;
+}
+
+.kontakt {
+  background-color: #D6EFFF;
+overflow: hidden;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.kontakt li{
+list-style-type: none;
+}
+
+.kontakt ul{
+display: block;
+margin: 0;
+padding: 0;
+
+
+display: flex; 
+}
+
+.kontakt img{
+  height: 16px;
+  width: 16px;
+  border-color: azure;
+}
+  
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  display:block;
+  margin:auto;
+}
+  
+  @media only screen and (max-width: 500px) {
+    .topnav ul{
+      flex-direction: column;
+    }
+    
+    .topnav a{
+      display: block;
+    }
+    
+    .topnav li{
+      margin: 0;
+    }
+    
+    .topnav button{
+      display: block;
+      
+      padding: 2vw;
+      font-size: 3vh;
+      background-color: #AFE0FF;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      
+      align-self: flex-start;
+    }
+  }

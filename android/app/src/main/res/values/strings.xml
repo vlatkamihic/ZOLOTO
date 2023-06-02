@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">ZOLOTO</string>
+
+    <string name="Naslovna_Text">Moji favoriti:</string>
+
+    <string name="ONamaNaslov">O NAMA</string>
+    <string name="ONamaSadrzaj">Zoloto je novoosnovana stranica koja nudi proizvode izrađene od poludragog kamenja.
+                                S radom smo započeli tijekom studenoga 2020.godine, a do ideje smo došli istražujući osobitosti poludragog kamenja.
+                                Svaki od kamena ima svoje specifičnosti koje na tijelo utječu i mentalno i fizički.
+                                Kako vrijeme odmiče, trudimo se ponuditi što više novih proizvoda.</string>
+    <string name="ONamaKontaktMail">Kontakt e-mail: miamikulic980@gmail.com</string>
+    <string name="ONamaKontaktTel">Kontakt telefon: 091 980 4660</string>
+
+    <string-array name="SlikeNarukvica">
+        <item>kummitus</item>
+        <item>vapaus</item>
+        <item>envie</item>
+        <item>rahu</item>
+        <item>ancora</item>
+        <item>vincere</item>
+        <item>vigore</item>
+    </string-array>
+
+
+    <!-- sadrzaj narukvica -->
+    <string-array name="SadrzajiNarukvica">
+        <item>(estonski duh)</item>
+        <item>(finski sloboda)</item>
+        <item>(franc. želja)</item>
+        <item>(estonski mir)</item>
+        <item>(port. sidro)</item>
+        <item>(tal. pobjeda)</item>
+        <item>(tal. snaga,sila)</item>
+    </string-array>
+
+    <!-- naslovi narukvica -->
+
+    <string-array name="NasloviNarukvica">
+        <item>Kummitus</item>
+        <item>Vapaus</item>
+        <item>Envie</item>
+        <item>Rahu</item>
+        <item>Ancora</item>
+        <item>Vincere</item>
+        <item>Vigore</item>
+    </string-array>
+
+    <!-- slike poludragog kamenja -->
+
+    <string-array name="SlikePKamenja">
+        <item>ahat</item>
+        <item>krizokola</item>
+        <item>jaspis</item>
+        <item>haulit</item>
+    </string-array>
+
+
+    <!-- sadrzaj poludragog kamenja-->
+    <string-array name="SadrzajiPKamenja">
+        <item>"Kristal za uspjeh, snagu i hrabrost."</item>
+        <item>"Kamen nježnosti i opuštanja."</item>
+        <item>"Nježan, umirujuć, privlači energiju ljubavi i poslovni napredak."</item>
+        <item>"Oblikuje ambicije, duhovne i materijalne, i pomaže da ih ostvarite."</item>
+    </string-array>
+
+    <!-- naslovi poludragog kamenja -->
+
+    <string-array name="NasloviPKamenja">
+        <item>Ahat</item>
+        <item>Krizokola</item>
+        <item>Jaspis</item>
+        <item>Haulit</item>
+    </string-array>
+
+    <!-- Porukice -->
+
+    <string-array name="lijepePoruke">
+        <item>Life is better while laughing.</item>
+        <item>Letting go gives us freedom, and freedom is the only condition for happiness. If, in our heart, we still cling to anything – anger, anxiety, or possessions – we cannot be free.</item>
+        <item>Your mind is a powerful thing. When you fill it with positive thoughts, your life will start to change.</item>
+        <item>Just because you are happy it does not mean that the day is perfect but that you have looked beyond its imperfections.</item>
+        <item>Smile often, think positively, give thanks, laugh loudly, love others, dream big.</item>
+        <item>Happiness is nothing more than good health and a bad memory.</item>
+        <item>Stay positive, work hard, and make it happen.</item>
+        <item>I, not events, have the power to make me happy or unhappy today. I can choose which it shall be. Yesterday is dead, tomorrow hasn’t arrived yet. I have just one day, today, and I’m going to be happy in it.</item>
+        <item>Kindness is a wonderful way to let another struggling soul know that there is still love in this world.</item>
+        <item>Stay positive, work hard, and make it happen.</item>
+        <item>Whoever is happy will make others happy.</item>
+        <item>Be kinder to yourself and then let your kindness flood the world.</item>
+        <item>The darkest nights produce the brightest stars.</item>
+        <item>Im choosing happiness over suffering, I know I am. I’m making space for the unknown future to fill up my life with yet-to-come surprises.</item>
+        <item>Happiness is not the absence of problems it’s the ability to deal with them.</item>
+        <item>It is okay to STOP and just BE.</item>
+        <item>Hey little fighter, soon things will be brighter.</item>
+        <item>Choose happy.</item>
+        <item>Regardless of how anyone else feels about me, I am going to choose to be happy and completely love myself today.</item>
+        <item>I am in charge of how I feel and today I am choosing happiness.</item>
+    </string-array>
+
+</resources>
